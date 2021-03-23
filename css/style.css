@@ -7,29 +7,71 @@
 }
 
 .Scarpa{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
     text-align: center;
+
+    position: relative;
 }
 
-.Uno{
+#Uno{
     background-color: red;
 }
 
-.Due{
+#Due{
     background-color: green;
 }
 
-.Tre{
+#Tre{
     background-color: yellow;
+}
+
+img{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h2{
     font-size: 3em;
 
+    position: absolute;
+        
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
 }
 
-.Scarpa.Uno > h2{
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Scarpa#Uno > h2, .Scarpa#Due > h2{
     color: #ffff00;
+}
+
+.Scarpa#Tre > h2{
+    color: green;
+}
+
+.Link_Sezioni{
+    position: fixed;
+
+    top: 5%;
+    right: 15px;
+
+    z-index: 1;
+}
+
+.A,.B,.C{
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 13px 16px;
+
+    display: inline-block;
 }
