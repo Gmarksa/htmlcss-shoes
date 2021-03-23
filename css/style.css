@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.Scarpa{
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+}
+
+.Uno{
+    background-color: red;
+}
+
+.Due{
+    background-color: green;
+}
+
+.Tre{
+    background-color: yellow;
+}
+
+h2{
+    font-size: 3em;
+
+}
+
+.Scarpa.Uno > h2{
+    color: #ffff00;
+}
